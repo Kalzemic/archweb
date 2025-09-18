@@ -2,16 +2,18 @@
     margin-top: 1rem;
     transform: translateY(40px);
     transition: opacity 1.2s ease-out, transform 1.2s ease-out;
-    background: linear-gradient()
+    background: linear-gradient();
+
 }
 
 .about-body {
     display: flex;
     flex-direction: row;
     height: 80%;
-    width: 80vw;
+    width: 84.5vw;
     background: linear-gradient(to right, rgba(117, 203, 246, 0.6), rgba(120, 94, 237, 0.6));
     border-radius: 20px;
+
 }
 
 

@@ -11,4 +11,21 @@
     justify-content: center;
     gap: 20px;
 
+    background: linear-gradient(to left, rgba(52, 68, 103, 0.784), rgba(51, 39, 72, 0.8));
+    /* background-size: 200% 200%; */
+    animation: gradientFlow 6s ease-in-out infinite;
+}
+
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }

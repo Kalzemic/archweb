@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(213, 226, 231, 0.95);
-  background-color: rgba(58, 69, 97, 0.784);
+  background-color: rgba(28, 33, 46, 0.784);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -53,7 +53,7 @@ button {
 
 button:hover {
   transition: transform 0.3s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 button:focus,

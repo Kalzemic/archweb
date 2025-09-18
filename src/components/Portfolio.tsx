@@ -16,7 +16,7 @@ export default function Portfolio() {
                             <img className='project-card-background' src={imagepath} alt={`${project.name} project image`} />
                             <img className='project-card-logo' src={logopath} alt={`${project.name} logo image`} />
                             <button className='project-card-button'
-                                style={{ backgroundColor: "rgba(0,0,0,0.9)", color: project.color }}
+                                style={{ backgroundColor: "rgba(0,0,0,0.9)", color: project.color, boxShadow: `0 0 10px ${project.color}` }}
                                 onClick={() => { window.open(url) }}>לצפייה</button>
 
 
