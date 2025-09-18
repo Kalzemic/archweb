@@ -1,0 +1,66 @@
+.portfolio-page {
+    margin-top: 150px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Ensures exactly 4 columns */
+    gap: 50px;
+    padding: 10px;
+    justify-content: center;
+    /* Centers the grid */
+    overflow-y: hidden;
+    margin-top: 5px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+}
+
+
+.project-card:hover {
+    transition: transform ease-in 0.3s;
+    transform: scale(1.07)
+}
+
+.project-card-background {
+    margin-top: 0px;
+    left: 0;
+    position: absolute;
+    height: 99%;
+    width: 99%;
+    filter: blur(3px) brightness(50%);
+    border-radius: 5px;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.project-card-logo {
+    position: relative;
+    z-index: 1;
+    height: 250px;
+    width: 250px;
+    border-radius: 300px;
+    /* background-color: rgba(0, 0, 0, 0.95); */
+    width: auto;
+}
+
+
+.project-card-button {
+    margin-top: 1rem;
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,4 @@
+.page-content {
+    transform: translateY(40px);
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+}
