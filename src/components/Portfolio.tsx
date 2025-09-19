@@ -12,7 +12,6 @@ export default function Portfolio() {
             <div className='projects-grid'>
 
                 {projects.map((project, index) => {
-                    const url = `https://www.${project.name}.co.il`
                     const imagepath = `/projects/images/${project.name}.png`
                     const logopath = `/projects/logos/${project.name}.png`
                     return (
