@@ -13,6 +13,7 @@
     /* Centers the grid */
     overflow-y: hidden;
     margin-top: 5px;
+    overflow-x: hidden;
 
 }
 
