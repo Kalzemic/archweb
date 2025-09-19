@@ -1,6 +1,11 @@
 import '../Styles/Portfolio.css'
-import projects from '../../public/projects/projects.json'
+import projects from '../assets/projects.json'
+import { useNavigate } from "react-router-dom";
+
+
 export default function Portfolio() {
+
+    const navigate = useNavigate();
     return (
         <div className='portfolio-page'>
             <h1>כמה מהעבודות שלנו</h1>
@@ -17,7 +22,7 @@ export default function Portfolio() {
                             <img className='project-card-logo' src={logopath} alt={`${project.name} logo image`} />
                             <button className='project-card-button'
                                 style={{ backgroundColor: "rgba(0,0,0,0.9)", color: project.color, boxShadow: `0 0 10px ${project.color}` }}
-                                onClick={() => { window.open(url) }}>לצפייה</button>
+                                onClick={() => { navigate(`/projects/${project.name}`) }}>לצפייה</button>
 
 
                         </div>

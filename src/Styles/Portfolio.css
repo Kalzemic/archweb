@@ -1,5 +1,6 @@
 .portfolio-page {
-    margin-top: 150px;
+    margin-top: 7rem;
+    width: 84.5vw;
 }
 
 .projects-grid {
@@ -12,6 +13,7 @@
     /* Centers the grid */
     overflow-y: hidden;
     margin-top: 5px;
+
 }
 
 .project-card {
@@ -63,4 +65,12 @@
     margin-top: 1rem;
     position: relative;
     z-index: 1;
+}
+
+
+
+@media(max-width: 1000px) {
+    .projects-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

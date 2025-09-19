@@ -1,5 +1,5 @@
 .about-page {
-    margin-top: 1rem;
+    margin-top: 7rem;
     transform: translateY(40px);
     transition: opacity 1.2s ease-out, transform 1.2s ease-out;
     background: linear-gradient();
@@ -19,7 +19,7 @@
 
 .about-image-container {
     display: flex;
-    height: 90%;
+    height: 100%;
     width: 45%;
 
 }
@@ -27,8 +27,8 @@
 
 .about-img {
     display: flex;
-    height: 30rem;
-    width: 30rem;
+    height: 100%;
+    width: 85%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -41,4 +41,36 @@
     display: flex;
     width: 50%;
     height: 30rem;
+}
+
+
+
+@media(max-width:1000px) {
+
+    .about-page {
+        align-items: center;
+    }
+
+    .about-body {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .about-img-container {
+        width: 13rem;
+        align-items: center;
+    }
+
+    .about-img {
+        border-radius: 20px;
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .about-text {
+        height: 30%;
+    }
+
 }

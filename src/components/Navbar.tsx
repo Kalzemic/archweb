@@ -14,10 +14,10 @@ function Navbar() {
                     {/* Desktop nav */}
                     <div className="navbar-center desktop-menu">
                         <ul>
-                            <li><a href="#homepage">דף הבית</a></li>
-                            <li><a href="#about">קצת עלינו</a></li>
-                            <li><a href="#portfolio">הפרויקטים שלנו</a></li>
-                            <li className="contact-button"><a href="#contact">צרו קשר</a></li>
+                            <li><a href="/#homepage">דף הבית</a></li>
+                            <li><a href="/#about">קצת עלינו</a></li>
+                            <li><a href="/#portfolio">הפרויקטים שלנו</a></li>
+                            <li className="contact-button"><a href="/#contact">צרו קשר</a></li>
                         </ul>
                     </div>
 
@@ -35,10 +35,10 @@ function Navbar() {
             {/* Sidebar menu */}
             <div className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><a href="#homepage">דף הבית</a></li>
-                    <li><a href="#about">קצת עלינו</a></li>
-                    <li><a href="#portfolio">הפרויקטים שלנו</a></li>
-                    <li className="contact-button"><a href="#contact">צרו קשר</a></li>
+                    <li><a href="/#homepage">דף הבית</a></li>
+                    <li><a href="/#about">קצת עלינו</a></li>
+                    <li><a href="/#portfolio">הפרויקטים שלנו</a></li>
+                    <li className="contact-button"><a href="/#contact">צרו קשר</a></li>
                 </ul>
             </div>
         </>

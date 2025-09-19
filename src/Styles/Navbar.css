@@ -103,8 +103,8 @@
 }
 
 .contact-button:hover {
-    animation: colorSwitch ease-in-out 0.5s;
-    background-color: #fcc42866;
+    animation: colorSwitch ease-in-out 1s;
+    background: linear-gradient(to left, rgba(246, 192, 117, 0.6), rgba(196, 94, 237, 0.6));
 }
 
 @keyframes colorSwitch {
@@ -113,7 +113,7 @@
     }
 
     to {
-        background-color: rgba(252, 196, 40, 0.4);
+        background: linear-gradient(to right, rgba(246, 192, 117, 0.6), rgba(196, 94, 237, 0.6));
     }
 }
 

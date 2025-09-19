@@ -3,30 +3,41 @@ import AboutPage from "./components/AboutPage";
 import HomePage from "./components/Homepage";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
-
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import Project from "./components/Project";
 
 
 const App = () => {
 
   return (
-    <div className="main-container">
-      <Navbar />
-      <section id="homepage">
-        <HomePage />
-      </section>
-      <section id="about">
-        <AboutPage />
-      </section>
-      <section id="portfolio">
-        <Portfolio />
-      </section>
-      <section id="contact">
+    <BrowserRouter>
+      <div className="main-container">
+        <Navbar />
+        <Routes>
+          <Route path='/' element={
 
-      </section>
-      <section id="reviews">
+            <div>
+              <section id="homepage">
+                <HomePage />
+              </section>
+              <section id="about">
+                <AboutPage />
+              </section>
+              <section id="portfolio">
+                <Portfolio />
+              </section>
+              <section id="contact">
 
-      </section>
-    </div>
+              </section>
+              <section id="reviews">
+
+              </section>
+            </div>
+          } />
+          <Route path='/projects/:project_name' element={<Project />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
