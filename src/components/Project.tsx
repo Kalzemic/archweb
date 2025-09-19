@@ -7,7 +7,7 @@ export default function Project() {
 
     const { project_name } = useParams<{ project_name: string }>();
     const imagePath = `/projects/images/${project_name}.png`
-    // const url = `https://www.${project}.co.il`
+
     return (
 
         <div className='project-showcase-page'>
