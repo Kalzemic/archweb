@@ -175,7 +175,13 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+
+    /* .navbar {
+        width: 89%;
+        right: 2%;
+    } */
+
     .desktop-menu {
         display: none;
     }

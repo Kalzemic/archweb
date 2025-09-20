@@ -32,6 +32,9 @@
     transition: transform 0.3s ease-in-out;
     margin: 10px;
     overflow: hidden;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: rgba(43, 29, 29, 0.95);
 }
 
 

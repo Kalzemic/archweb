@@ -1,9 +1,9 @@
 .about-body {
-    margin-top: 7rem;
+    margin-top: 12rem;
     display: flex;
     flex-direction: row;
-    height: 80%;
-    width: 96vw;
+    height: 70%;
+    width: 94vw;
     background: linear-gradient(to right, rgba(117, 203, 246, 0.6), rgba(120, 94, 237, 0.6));
     border-radius: 20px;
 
@@ -52,7 +52,7 @@
 
 
     .about-img {
-        visibility: none;
+        display: none;
         border-radius: 20px;
         width: 13rem;
         height: 13rem;
