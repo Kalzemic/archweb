@@ -71,6 +71,11 @@
 
 
 @media(max-width: 1000px) {
+
+    .portfolio-page {
+        width: 96vw;
+    }
+
     .projects-grid {
         grid-template-columns: repeat(1, 1fr);
     }
