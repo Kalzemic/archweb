@@ -20,8 +20,8 @@
 .project-card {
     display: flex;
     flex-direction: column;
-    height: 400px;
-    width: 350px;
+    height: 25rem;
+    width: 20rem;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -31,10 +31,11 @@
     position: relative;
     transition: transform 0.3s ease-in-out;
     margin: 10px;
+    overflow: hidden;
 }
 
 
-.project-card:hover {
+.project-card:hover img {
     transition: transform ease-in 0.3s;
     transform: scale(1.07)
 }
