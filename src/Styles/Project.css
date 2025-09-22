@@ -12,3 +12,16 @@
     border-radius: 20px;
     filter: blur(1px) brightness(70%);
 }
+
+
+@media(max-width:1000px) {
+
+    .project-showcase-page {
+        width: 99%;
+    }
+
+    .project-showcase-image {
+        width: 20rem;
+        height: 18rem;
+    }
+}

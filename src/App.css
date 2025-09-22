@@ -48,3 +48,13 @@ section:target {
         transform: translateY(0);
     }
 }
+
+
+
+
+
+@media(max-width:1000px) {
+    .main-container {
+        width: 99.9vw
+    }
+}
