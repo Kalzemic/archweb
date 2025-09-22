@@ -22,7 +22,7 @@ export default function Project() {
             <div className='project-showcase-description'>
                 <h1>{project_name}</h1>
                 <button
-                    onClick={() => window.open(url)}>בקרו ב{project_name}</button>
+                    onClick={() => window.open(url)}>בקרו ב- {project_name}</button>
             </div>
         </div>
     );
