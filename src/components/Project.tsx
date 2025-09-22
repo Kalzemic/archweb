@@ -7,6 +7,7 @@ export default function Project() {
 
     const { project_name } = useParams<{ project_name: string }>();
     const imagePath = `/projects/images/${project_name}.png`
+    const url = `https://www.${project_name}.co.il`
 
     return (
 
@@ -20,7 +21,8 @@ export default function Project() {
             </div>
             <div className='project-showcase-description'>
                 <h1>{project_name}</h1>
-
+                <button
+                    onClick={() => window.open(url)}>בקרו ב{project_name}</button>
             </div>
         </div>
     );
