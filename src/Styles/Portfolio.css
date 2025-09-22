@@ -1,6 +1,8 @@
 .portfolio-page {
+
     margin-top: 7rem;
-    width: 84.5vw;
+    width: 80vw;
+    margin-right: 6.5%;
 }
 
 .projects-grid {
@@ -77,7 +79,9 @@
 @media(max-width: 1000px) {
 
     .portfolio-page {
-        width: 96vw;
+        height: 70%;
+        width: 85vw;
+        margin-right: 8%;
     }
 
     .projects-grid {
