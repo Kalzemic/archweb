@@ -17,7 +17,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={
 
-            <div>
+            <>
               <section id="homepage">
                 <HomePage />
               </section>
@@ -33,7 +33,7 @@ const App = () => {
               <section id="reviews">
 
               </section>
-            </div>
+            </>
           } />
           <Route path='/projects/:project_name' element={<Project />} />
         </Routes>

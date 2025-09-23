@@ -1,4 +1,7 @@
 .contact-page {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
     height: 70%;
     /* width: 84vw; */
     /* margin-right: 6.5%; */
@@ -6,6 +9,11 @@
 
 }
 
+.contact-title {
+    display: flex;
+    justify-content: end;
+    padding: 100px;
+}
 
 .contact-form {
     display: flex;
@@ -15,7 +23,10 @@
     background: linear-gradient(to right, rgba(117, 203, 246, 0.6), rgba(120, 94, 237, 0.6));
     border-radius: 20px;
     gap: 3rem;
-    padding: 25px;
+    padding: 40px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: rgba(255, 255, 255, 0.3);
 }
 
 .contact-segment {
@@ -23,4 +34,14 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+}
+
+
+
+
+
+@media(max-width:1000px) {
+    .contact-page {
+        flex-direction: column;
+    }
 }

@@ -16,12 +16,20 @@
   scroll-behavior: smooth;
 }
 
+input {
+  border-radius: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+}
+
 a {
   display: flex;
   justify-content: center;
   align-items: center;
   /* font-weight: 500; */
-  color: rgba(213, 226, 231, 0.95);
+  color: #ffffff;
   text-decoration: inherit;
 }
 

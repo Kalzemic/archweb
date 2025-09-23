@@ -7,6 +7,9 @@
     /* margin-right: 6.5%; */
     background: linear-gradient(to right, rgba(117, 203, 246, 0.6), rgba(120, 94, 237, 0.6));
     border-radius: 20px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: rgba(255, 255, 255, 0.3);
 
 }
 
