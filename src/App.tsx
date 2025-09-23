@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Project from "./components/Project";
+import Contactpage from "./components/ContactPage";
 
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
                 <Portfolio />
               </section>
               <section id="contact">
-
+                <Contactpage />
               </section>
               <section id="reviews">
 

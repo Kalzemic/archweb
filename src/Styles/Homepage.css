@@ -34,7 +34,7 @@
     margin-top: 11rem;
     height: 80%;
     width: 80vw;
-    margin-right: 6.5%;
+    /* margin-right: 6.5%; */
     outline-style: solid;
     outline-width: 2px;
     outline-color: rgba(255, 255, 255, 0.3);
@@ -81,7 +81,7 @@
         margin-top: 7rem;
         height: 70%;
         width: 75vw;
-        margin-right: 4.5%;
+        /* margin-right: 4.5%; */
     }
 
     .hero-img-container {

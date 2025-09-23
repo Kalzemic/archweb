@@ -2,7 +2,7 @@
 
     margin-top: 7rem;
     width: 80vw;
-    margin-right: 6.5%;
+    /* margin-right: 6.5%; */
 }
 
 .projects-grid {
@@ -81,7 +81,7 @@
     .portfolio-page {
         height: 70%;
         width: 85vw;
-        margin-right: 8%;
+        /* margin-right: 8%; */
     }
 
     .projects-grid {
