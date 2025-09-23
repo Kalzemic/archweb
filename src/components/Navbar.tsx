@@ -16,6 +16,7 @@ function Navbar() {
                         <ul>
                             <li><a href="/#homepage">דף הבית</a></li>
                             <li><a href="/#about">קצת עלינו</a></li>
+                            <li><a href="/#services">השירותים שלנו</a></li>
                             <li><a href="/#portfolio">הפרויקטים שלנו</a></li>
                             <li className="contact-button"><a href="/#contact">צרו קשר</a></li>
                         </ul>
@@ -37,6 +38,7 @@ function Navbar() {
                 <ul>
                     <li><a href="/#homepage">דף הבית</a></li>
                     <li><a href="/#about">קצת עלינו</a></li>
+                    <li><a href="/#services">השירותים שלנו</a></li>
                     <li><a href="/#portfolio">הפרויקטים שלנו</a></li>
                     <li className="contact-button"><a href="/#contact">צרו קשר</a></li>
                 </ul>

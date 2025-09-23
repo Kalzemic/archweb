@@ -19,7 +19,8 @@ const HomePage = () => {
                     <h1>ArchWeb</h1>
                     <h2>מעלים את המותג שלכם לרשת העולמית</h2>
                 </div>
-                <motion.button
+                <motion.a
+                    href="/#contact"
                     initial={{
                         boxShadow: "0 0 10px rgba(0, 195, 255, 0.9)",
                         background:
@@ -34,7 +35,7 @@ const HomePage = () => {
                         repeat: Infinity,
                         ease: "easeIn",
                     }}
-                >בואו נתחיל</motion.button>
+                >בואו נתחיל</motion.a>
             </div>
         </div >
     );
