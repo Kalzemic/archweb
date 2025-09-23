@@ -21,7 +21,7 @@ a {
   justify-content: center;
   align-items: center;
   /* font-weight: 500; */
-  color: #ffffff;
+  color: rgba(213, 226, 231, 0.95);
   text-decoration: inherit;
 }
 
@@ -67,7 +67,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: rgba(213, 226, 231, 0.95);
     background-color: #ffffff;
   }
 
