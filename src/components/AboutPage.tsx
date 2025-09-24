@@ -1,6 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import '../Styles/AboutPage.css'
+import { motion } from 'framer-motion';
 
 export default function AboutPage() {
+
+    const navigate = useNavigate();
     return (
 
 
@@ -16,6 +20,23 @@ export default function AboutPage() {
                     לרשותכם צוות מתכנתים מומחה בעולם פיתוח הרשת
                     שיודע לענות על כל הדרישות שלכם</h3>
                 <h2>שילווה אתכם ויספק מענה לאורך כל הדרך</h2>
+                <motion.button
+                    initial={{
+                        boxShadow: "0 0 10px rgba(0, 195, 255, 0.9)",
+                        background:
+                            "linear-gradient(to right, rgba(246, 192, 117, 0.6), rgba(196, 94, 237, 0.6))",
+                        backgroundSize: "200% 200%",
+                    }}
+                    animate={{
+                        backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
+                    }}
+                    transition={{
+                        duration: 3,
+                        repeat: Infinity,
+                        ease: "easeIn",
+                    }}
+                    className='team-button'
+                    onClick={() => { navigate(`/team`) }}>קראו עוד</motion.button>
             </div>
         </div>
 

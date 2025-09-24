@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio";
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Project from "./components/Project";
 import Contactpage from "./components/ContactPage";
+import TeamPage from "./components/TeamPage";
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
             </>
           } />
           <Route path='/projects/:project_name' element={<Project />} />
+          <Route path='team' element={<TeamPage />} />
         </Routes>
       </div>
     </BrowserRouter>
