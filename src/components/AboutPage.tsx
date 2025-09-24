@@ -6,7 +6,7 @@ export default function AboutPage() {
 
         <div className='about-body'>
             <div className='about-image-container'>
-                <img className='about-img' src="/Optician_Marketing.jpg" alt="no image found" />
+                <img className='about-img' src="/archweb_about.png" alt="no image found" />
             </div>
             <div className='about-text'>
                 <h1>מי אנחנו?</h1>
