@@ -7,6 +7,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Project from "./components/Project";
 import Contactpage from "./components/ContactPage";
 import TeamPage from "./components/TeamPage";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -33,6 +34,9 @@ const App = () => {
               </section>
               <section id="reviews">
 
+              </section>
+              <section id='footer'>
+                <Footer />
               </section>
             </>
           } />
