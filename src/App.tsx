@@ -8,6 +8,8 @@ import Project from "./components/Project";
 import Contactpage from "./components/ContactPage";
 import TeamPage from "./components/TeamPage";
 import Footer from "./components/Footer";
+import ServicesPage from "./components/ServicesPage";
+import Service from "./components/Service";
 
 
 const App = () => {
@@ -20,28 +22,32 @@ const App = () => {
           <Route path='/' element={
 
             <>
-              <section id="homepage">
+              <section className='main-segment' id="homepage">
                 <HomePage />
               </section>
-              <section id="about">
+              <section className='main-segment' id="about">
                 <AboutPage />
               </section>
-              <section id="portfolio">
+              <section className='main-segment' id='services'>
+                <ServicesPage />
+              </section>
+              <section className='main-segment' id="portfolio">
                 <Portfolio />
               </section>
-              <section id="contact">
+              <section className='main-segment' id="contact">
                 <Contactpage />
               </section>
-              <section id="reviews">
+              <section className='main-segment' id="reviews">
 
               </section>
-              <section id='footer'>
+              <section className='main-segment' id='footer'>
                 <Footer />
               </section>
             </>
           } />
           <Route path='/projects/:project_name' element={<Project />} />
           <Route path='team' element={<TeamPage />} />
+          <Route path='/services/:service' element={<Service />} />
         </Routes>
       </div>
     </BrowserRouter>

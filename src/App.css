@@ -11,7 +11,7 @@
     justify-content: center;
     gap: 20px;
 
-    background: linear-gradient(to left, rgba(52, 68, 103, 0.784), rgba(51, 39, 72, 0.8));
+    background-color: aliceblue;
     /* background-size: 200% 200%;
     animation: gradientFlow 6s ease-in-out infinite; */
 }
@@ -31,11 +31,15 @@
 }
 
 
-
-section:target {
-    opacity: 0;
-    animation: fadeInSlide 0.4s ease-in 0.3s forwards
+.main-segment {
+    opacity: 1;
 }
+
+
+/* .main-segment:target {
+
+    animation: fadeInSlide 0.4s ease-in 0.3s forwards
+} */
 
 @keyframes fadeInSlide {
     from {

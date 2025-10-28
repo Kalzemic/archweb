@@ -1,18 +1,17 @@
 .contact-page {
     display: flex;
-    flex-direction: row;
-    gap: 200px;
+    flex-direction: column;
     height: 70%;
     /* width: 84vw; */
     /* margin-right: 6.5%; */
-    margin-top: 16rem;
+    margin-top: 3rem;
 
 }
 
 .contact-title {
     display: flex;
-    justify-content: end;
-    padding: 100px;
+    justify-content: center;
+    padding: 50px;
 }
 
 .contact-form {
