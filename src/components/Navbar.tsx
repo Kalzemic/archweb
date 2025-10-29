@@ -1,10 +1,30 @@
 import '../Styles/Navbar.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleSidebar = () => setIsOpen(!isOpen);
+
+    useEffect(()=>{
+        const onScroll = ()=>{
+            const navbar = document.querySelector('.navbar');
+            if(!navbar) return;
+
+            const currentY = window.scrollY;
+            const threshold = window.innerHeight * 0.7; //70vh
+            if(currentY > threshold){
+                navbar.classList.add('scrolled')
+            }
+            else {
+                navbar.classList.remove('scrolled');
+            } 
+        };
+        window.addEventListener('scroll',onScroll);
+        onScroll();
+        return ()=>window.removeEventListener('scroll',onScroll);
+    },[]);
+
 
     return (
         <>
