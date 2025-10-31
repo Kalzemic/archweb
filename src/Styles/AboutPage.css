@@ -7,9 +7,7 @@
     /* margin-right: 6.5%; */
     
     /* border-radius: 20px; */
-    outline-style: solid;
-    outline-width: 2px;
-    outline-color: rgba(255, 255, 255, 0.3);
+
 
 }
 
@@ -91,6 +89,7 @@
 
     .about-text {
         height: 30%;
+        color: rgba(46, 59, 81, 0.95);
     }
 
 }
