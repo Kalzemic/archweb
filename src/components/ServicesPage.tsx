@@ -22,7 +22,7 @@ export default function ServicesPage() {
             const service = document.querySelector('.service')
             if(!service) return;
             
-            service.classList.remove('fade-out')
+            service.classList.add('fade-out')
             setTimeout(() => {
                 setCurrentIndex(prev => (prev + 1) % services.length);
                 // Fade back in after image change

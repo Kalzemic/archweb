@@ -43,12 +43,14 @@
 .service{
     width: 600px;
     height: 500px;
-    transition: opacity 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    filter: none;
     opacity: 1;
 }
 
 .service.fade-out{
-    opacity: 0;
+    opacity: 0.8;
+    filter: blur(40px);
 }
 
 .services-slider a {
