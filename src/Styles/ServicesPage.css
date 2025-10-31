@@ -167,9 +167,10 @@
 
     .service{
         height:20rem;
-        width: 25rem;
+        width: 90vw;
     }
     .services-slider h2{
-        width:24rem;
+        width:64vw;
+        font-size: 25px;
     }
 }
