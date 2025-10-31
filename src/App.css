@@ -9,9 +9,9 @@
     overflow-y: auto;
     overflow-x: hidden;
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px; */
 
-    background: linear-gradient(to left, rgba(39, 52, 78, 0.784), rgba(40, 30, 56, 0.8));
+   background-color: rgb(226, 228, 232);
     /* background-size: 200% 200%;
     animation: gradientFlow 6s ease-in-out infinite; */
 }

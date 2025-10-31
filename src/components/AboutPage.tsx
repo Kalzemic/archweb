@@ -1,10 +1,17 @@
 import { useNavigate } from 'react-router-dom';
 import '../Styles/AboutPage.css'
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
+import { ScrollEffect } from './ScrollEffect';
 
 export default function AboutPage() {
 
     const navigate = useNavigate();
+    
+    useEffect(()=>{
+        ScrollEffect({styleClass:'about-text',effectClass:'in-view'})
+        ScrollEffect({styleClass:'about-img',effectClass:'in-view'})
+    },[])
     return (
 
 

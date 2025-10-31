@@ -1,12 +1,12 @@
 .about-body {
-    margin-top: 12rem;
+    /* margin-top: 12rem; */
     display: flex;
     flex-direction: row;
     height: 70%;
-    width: 84vw;
+    width: 100%;
     /* margin-right: 6.5%; */
-    background: linear-gradient(to right, rgba(117, 203, 246, 0.6), rgba(120, 94, 237, 0.6));
-    border-radius: 20px;
+    
+    /* border-radius: 20px; */
     outline-style: solid;
     outline-width: 2px;
     outline-color: rgba(255, 255, 255, 0.3);
@@ -24,20 +24,36 @@
 
 
 .about-img {
-
+    transform:translateX(10%);
+    opacity: 0;
     height: 100%;
     width: 85%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    transition: 0.8s all 0.3s ease-in-out;
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
 }
 
+.about-img.in-view{
+    opacity:1;
+    transform: translateX(0);
+}
 .about-text {
+    opacity:0;
+    transition: 0.8s all 0.3s ease-in-out;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 50%;
     height: 30rem;
+}
+
+.about-text.in-view{
+    opacity:1;
+}
+
+.about-text h1{
+    margin-top: 12rem;
 }
 
 .team-button {

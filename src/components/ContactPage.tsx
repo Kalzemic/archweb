@@ -51,7 +51,7 @@ export default function Contactpage() {
                         value={body}
                         onChange={(e) => setBody(e.target.value)}
                         rows={10}
-                        cols={40}
+                        cols={35}
                         className='contact-textarea'
                     />
                 </div>

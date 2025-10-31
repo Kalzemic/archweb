@@ -1,15 +1,17 @@
 .portfolio-page {
 
-    margin-top: 7rem;
+    margin-top: 11rem;
+    margin-bottom: 11rem;
     width: 80vw;
     /* margin-right: 6.5%; */
 }
 
 .projects-grid {
     display: grid;
+    
     grid-template-columns: repeat(3, 1fr);
     /* Ensures exactly 4 columns */
-    gap: 50px;
+    gap: 20px;
     padding: 10px;
     justify-content: center;
     /* Centers the grid */
@@ -27,16 +29,19 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
     transition: transform 0.3s ease-in-out;
     margin: 10px;
     overflow: hidden;
+   
     outline-style: solid;
-    outline-width: 3px;
-    outline-color: rgba(43, 29, 29, 0.95);
+    outline-width: 2px;
+    outline-color: rgba(255, 255, 255, 0.3);
+    
+    
 }
 
 

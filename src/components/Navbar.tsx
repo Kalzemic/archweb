@@ -12,7 +12,7 @@ function Navbar() {
             if(!navbar) return;
 
             const currentY = window.scrollY;
-            const threshold = window.innerHeight * 0.7; //70vh
+            const threshold = window.innerHeight * 0.7; //80vh
             if(currentY > threshold){
                 navbar.classList.add('scrolled')
             }

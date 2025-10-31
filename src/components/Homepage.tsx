@@ -1,12 +1,21 @@
 import "../Styles/Page.css"
 import '../Styles/Homepage.css'
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { ScrollEffect } from "./ScrollEffect";
 
 
 
 
 
 const HomePage = () => {
+
+    useEffect(()=>{
+        ScrollEffect({styleClass:'hero-img-container',effectClass:'in-view'})
+        ScrollEffect({styleClass:'hero-text',effectClass:'in-view'})
+    },[])
+    
+
     return (
 
 
