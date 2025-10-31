@@ -10,15 +10,13 @@ import TeamPage from "./components/TeamPage";
 import Footer from "./components/Footer";
 import ServicesPage from "./components/ServicesPage";
 import Service from "./components/Service";
-import { useEffect } from "react";
+
 
 
 
 const App = () => {
 
-  // useEffect(()=>{
-  //   ScrollEffect({styleClass:'navbar',conditionClass:'about-body'})
-  // },[])
+
   return (
     <BrowserRouter>
       <div className="main-container">
