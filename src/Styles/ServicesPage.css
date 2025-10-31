@@ -3,8 +3,8 @@
     flex-direction: column;
     /* margin-top: 11rem; */
     height: 90%;
-    width: 99vw;
-    background: linear-gradient(to right, rgba(16, 40, 51, 0.851), rgba(24, 16, 60, 0.824));
+    width: 99.99vw;
+    background: linear-gradient(to right, rgba(12, 34, 46, 0.851), rgba(16, 10, 39, 0.824));
     
 }
 .services-page h1{
@@ -34,7 +34,7 @@
     align-items: center;
     width: 40%;
     height: 70vh;
-    margin: 100px auto;
+    margin: 20px auto;
 
     border-radius:10px;
     color:aliceblue;

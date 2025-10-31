@@ -50,7 +50,7 @@ const serviceStyles = {
                     services.map((_,idx)=>{return(
                         <button 
                         className={`service-button-${currentIndex === idx ? 'selected' : ''}`}
-                        onClick={()=>setCurrentIndex(idx)}>.</button>
+                        onClick={()=>setCurrentIndex(idx)}></button>
                     );})
                 }
                 </div>
