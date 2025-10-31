@@ -4,12 +4,13 @@
     /* margin-top: 11rem; */
     height: 90%;
     width: 99vw;
-    background: linear-gradient(to right, rgba(117, 203, 246, 0.6), rgba(120, 94, 237, 0.6));
+    background: linear-gradient(to right, rgba(16, 40, 51, 0.851), rgba(24, 16, 60, 0.824));
     
 }
 .services-page h1{
     margin-top: 10rem;
     font-size: 60px;
+    color:aliceblue;
 }
 .services-grid {
     margin-top: 100px;
@@ -104,7 +105,7 @@
     margin-top:0;
     font-size:50px;
     width: 500px;
-    background-image: linear-gradient(to left, rgba(59, 102, 123, 0.6), rgba(52, 40, 102, 0.6));
+    background-image: linear-gradient(to left, rgba(105, 179, 216, 0.642),rgba(98, 72, 203, 0.727));
     padding: 30px 50px;
     border-radius: 10px;
     outline-style: solid;
