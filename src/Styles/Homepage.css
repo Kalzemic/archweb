@@ -42,25 +42,25 @@
     /* background-image: url('/hero-background.jpg');
     background-size: cover; */
     /* background-image: linear-gradient(to left, rgba(39, 52, 78, 0.784), rgba(40, 30, 56, 0.8)); */
-   background-image: url('/archweb_bg.png');
-   background-size: cover;
+    background-image: url('/archweb_bg.png');
+    background-size: cover;
 }
 
 
-.hero-img-container{
-    opacity:0;
+.hero-img-container {
+    opacity: 0;
     transform: translateX(-30%);
     transition: 0.8s all 0.3s ease-in-out;
 }
 
-.hero-img-container.in-view{
-    opacity:1;
+.hero-img-container.in-view {
+    opacity: 1;
     transform: translateX(0);
 }
 
 .hero-img {
     margin-left: 10rem;
-    margin-top:10rem;
+    margin-top: 5rem;
     height: 25rem;
     width: 25rem;
     border-radius: 300px;
@@ -78,8 +78,8 @@
     transition: 1s all 0.3s ease-in-out;
 }
 
-.hero-text.in-view{
-    opacity:1;
+.hero-text.in-view {
+    opacity: 1;
 }
 
 
