@@ -42,6 +42,7 @@ export default function AboutPage() {
                         repeat: Infinity,
                         ease: "easeIn",
                     }}
+                    aria-label='link to read more about the team'
                     className='team-button'
                     onClick={() => { navigate(`/team`) }}>קראו עוד</motion.button>
             </div>

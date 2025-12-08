@@ -47,14 +47,15 @@ const serviceStyles = {
             <div className='services-slider'>
                 <div className='service-buttons'>
                 {
-                    services.map((_,idx)=>{return(
+                    services.map((service,idx)=>{return(
                         <button 
+                        aria-label={`כפתור להציג  ${service.name} על המסך`}
                         className={`service-button-${currentIndex === idx ? 'selected' : ''}`}
                         onClick={()=>setCurrentIndex(idx)}></button>
                     );})
                 }
                 </div>
-                <a href={`/services/${services[currentIndex].url}`}>
+                <a aria-label={`כאן ניתן לראות איך אנחנו יוצרים ${services[currentIndex].name} ייחודיים`} href={`/services/${services[currentIndex].url}`}>
                 <div className='service' style={serviceStyles}></div>
                 </a>
                 <h2>{services[currentIndex].name}</h2>

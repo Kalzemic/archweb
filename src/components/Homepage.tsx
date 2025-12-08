@@ -30,6 +30,7 @@ const HomePage = () => {
                 </div>
                 <motion.a
                     href="/#contact"
+                    aria-label='contact us'
                     initial={{
                         boxShadow: "0 0 10px rgba(0, 195, 255, 0.9)",
                         background:

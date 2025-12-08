@@ -34,11 +34,11 @@ function Navbar() {
                     {/* Desktop nav */}
                     <div className="navbar-center desktop-menu">
                         <ul>
-                            <li><a href="/#homepage">דף הבית</a></li>
-                            <li><a href="/#about">קצת עלינו</a></li>
-                            <li><a href="/#services">השירותים שלנו</a></li>
-                            <li><a href="/#portfolio">הפרויקטים שלנו</a></li>
-                            <li className="contact-button"><a href="/#contact">צרו קשר</a></li>
+                            <li><a aria-label='button to homepage' href="/#homepage">דף הבית</a></li>
+                            <li><a aria-label='button to about-page' href="/#about">קצת עלינו</a></li>
+                            <li><a aria-label='button to services page' href="/#services">השירותים שלנו</a></li>
+                            <li><a aria-label='button to portfolio' href="/#portfolio">הפרויקטים שלנו</a></li>
+                            <li aria-label='button to contact form' className="contact-button"><a href="/#contact">צרו קשר</a></li>
                         </ul>
                     </div>
 
@@ -56,11 +56,11 @@ function Navbar() {
             {/* Sidebar menu */}
             <div className={`sidebar ${isOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><a href="/#homepage">דף הבית</a></li>
-                    <li><a href="/#about">קצת עלינו</a></li>
-                    <li><a href="/#services">השירותים שלנו</a></li>
-                    <li><a href="/#portfolio">הפרויקטים שלנו</a></li>
-                    <li className="contact-button"><a href="/#contact">צרו קשר</a></li>
+                <li><a aria-label='button to homepage' href="/#homepage">דף הבית</a></li>
+                            <li><a aria-label='button to about-page' href="/#about">קצת עלינו</a></li>
+                            <li><a aria-label='button to services page' href="/#services">השירותים שלנו</a></li>
+                            <li><a aria-label='button to portfolio' href="/#portfolio">הפרויקטים שלנו</a></li>
+                            <li aria-label='button to contact form' className="contact-button"><a href="/#contact">צרו קשר</a></li>
                 </ul>
             </div>
         </>
