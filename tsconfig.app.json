@@ -1,27 +1,35 @@
 {
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "target": "ES2022",
-    "useDefineForClassFields": true,
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
 
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
-    "noEmit": true,
+    /* Language & runtime */
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "jsx": "react-jsx",
 
-    /* Linting */
+    /* Module system */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "useDefineForClassFields": true,
+
+    /* Type safety */
     "strict": true,
+    "skipLibCheck": true,
+
+    /* Lint-style safety */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "erasableSyntaxOnly": true,
+
+    /* 🔥 IMPORTANT: allow CSS side-effect imports (Swiper, Tailwind, etc.) */
+    "noUncheckedSideEffectImports": false
   },
+
+  /* Make sure TS sees all source + d.ts files */
   "include": ["src"]
 }

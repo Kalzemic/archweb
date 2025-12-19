@@ -46,3 +46,16 @@
     font-size: 20px;
     
 }
+
+
+@media(max-width:1000px){
+    .text-content{
+        text-align: center;
+        width:12rem;
+        height:50rem;
+    }
+
+    .text-image{
+        width:3rem;
+    }
+}
