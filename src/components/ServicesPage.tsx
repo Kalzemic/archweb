@@ -15,13 +15,15 @@ export default function ServicesPage() {
 
   return (
     <div className="services-page">
+      <h1>השירותים שלנו</h1>
       <Swiper
         modules={[Autoplay]}
         height={1000}
         slidesPerView={3}
-        spaceBetween={40}
+        spaceBetween={50}
         speed={2000}
         loop
+        
         centeredSlides
         autoplay={{
           delay: 2000,
